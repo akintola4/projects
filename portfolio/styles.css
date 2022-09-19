@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1F2933;
+    color: #fff;
+    display: block;
+    margin: 0 3% 0 3%;
+    font-family: sans-serif;
+}
+#header-img{
+    width: 15%;
+}
+header{
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    position: fixed;
+    background-color: #1F2933;
+    justify-content: space-around;
+    top: 0;
+}
+.logo{
+    width: 50vw;
+}
+#navbar{
+    font-weight: 300;
+    top: 0;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+}
+#navbar ul li{
+    font-size: 20px;
+    list-style: none;
+}
+a{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+a:hover{
+    color: #05FF00;
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.hero-text{
+    margin: 4em;
+}
+.hero-text h1{
+    font-size: 3rem;
+}
+.hero-text>p{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 200;
+}
+.hero-image{
+    height: 10%;
+}
+.avatar{
+    width: 35%;
+}
+.container{
+    margin-top: 40%;
+   
+}
+.project-title{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    
+}
+.project-tile{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+.project-tile #desc{
+    text-align: center;
+    font-size: 2rem;
+}
+.projects-img{
+    width: 100%;
+}
+.projects{
+width: 70%;
+}
+#contact{
+    height: 50vh;
+    margin-top: 5%;
+    text-align: center;
+}
+#contact h2{
+    font-size: 5rem;
+}
+#contact h2 p{
+    font-size: 2rem;
+}
+.contact-links{
+    display: flex;
+    font-size:  100%;
+    
+    justify-content: space-evenly;
+    
+}
+.contact-details{
+    color: #fff;
+    margin: 2rem;
+}
+.contact-details:hover{
+    color: #05FF00;
+}
+footer{
+    height:10vh;
+    text-align: right;
+    border-top: 2px solid #05FF00;
+    padding-top: 2%;
+    font-size: 15px;
+}
+@media (max-width:900px) {
+    .hero-text h1{
+        font-size: 2rem;
+    }
+    .hero-text>p{
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 200;
+    }
+    .avatar{
+        width: 70%;
+    }
+    .hero-image{
+        margin-bottom: 10%;
+    }
+    #navbar ul li{
+        font-size: 12px;
+    }
+    .project-title{
+        font-size: 1rem;
+    }
+    #contact{
+        height: 15vh;
+    }
+    #contact h2 {
+        font-size: 2rem;
+    }
+    .contact-details{
+        margin: 1rem;
+    }
+    .contact-links{
+        font-size: 10px;
+    }
+    .footer{
+        font-size: 2vh;
+    }
+}
