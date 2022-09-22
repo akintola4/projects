@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+<h1 id="title">Fosters Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform  </p>
+  </header>
+  
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Name
+        <input id="name" placeholder="Enter your name" type="text" required>
+        </label>
+        <label id="email-label">email
+        <input id="email" placeholder="Enter your email" type="email" required>
+        </label>
+        <label id="number-label">
+          Age 
+          <input placeholder="Age" id="number" type="number" min="13" max="120">
+      <label>Select your Occupation</label>
+      <select id="dropdown">
+      <option value="">select</option>
+      <option value="1">Student</option>
+      <option value="2">teacher</option>
+      <option value="2">Lecturer</option>
+    </select>
+        </label>
+    </fieldset>
+   
+    <fieldset>
+      <p>Martial Status</p>
+    <label><input value="single" class="inline" name="status" value="" type="radio">Single</label>
+    <label><input value="married" name="status" type="radio" class="inline">Married</label>
+
+    <p>What kind of developer are you</p>
+      <label><input class="inline" name="job" value="Dev Ops" type="radio">Dev ops</label>
+      <label><input class="inline" name="job" value="Cloud developer" type="radio">Cloud developer</label>
+      <label><input class="inline" name="job" value="Front-end" type="radio">Front-end</label>
+      <label><input class="inline" name="job" value="Back-end" type="radio">Back-end</label>
+      <label><input class="inline" name="job" value="software engineer" type="radio">software engineer</label>
+      <label><input class="inline" name="job" value="Data engineer" type="radio">Data engineer</label>
+
+ <p>What Skills do you have</p>
+      <label><input class="inline" name="job" value="html/css" type="checkbox">HTML/CSS</label>
+      <label><input class="inline" name="job" value="Cloud" type="checkbox">Cloud</label>
+      <label><input class="inline" name="job" value="big data" type="checkbox">Big Data </label>
+      <label><input class="inline" name="job" value="javascript" type="checkbox">Javascript</label>
+      <label><input class="inline" name="job" value="python" type="checkbox">Python</label>
+      <label><input class="inline" name="job" value="ui/ux" type="checkbox">UI/UX</label>
+    <label> Describle your experience has a "DEVELOPER"<textarea name="bio" rows="3" cols="30" placeholder="I like my job cause it allows time with my family..."></textarea>
+        </label>
+    <label>
+          <input type="checkbox" name="terms" value="terms" class="inline" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+    </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+  </form>
+</body>
+
+</html>

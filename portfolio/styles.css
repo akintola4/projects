@@ -171,7 +171,7 @@ hr {
 
 #skills h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 3em;
     margin: 1em;
 }
 
@@ -197,7 +197,7 @@ hr {
 }
 
 #services h3 {
-    font-size: 50px;
+    font-size: 3em;
     margin: 1em;
 }
 
@@ -236,7 +236,7 @@ hr {
 
 .project-title {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 5%;
 }
 
