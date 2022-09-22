@@ -425,6 +425,7 @@ footer {
         width: 100%;
     }
     .about-desc article h2 {
+        display: none;
         font-size: 2rem;
         color: #fff;
         text-align: center;
