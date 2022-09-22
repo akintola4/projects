@@ -321,6 +321,17 @@ footer {
         left: 0;
     }
 
+    .project-tile {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 4rem;
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10%;
+    }
+
     #navbar {
         top: 0;
         position: fixed;
@@ -335,15 +346,15 @@ footer {
         flex-direction: column;
         position: relative;
         width: 50%;
-        
+
     }
 
-    #navbar ul li a{
+    #navbar ul li a {
         font-size: 17px;
         list-style: none;
         padding: 0.5rem 0;
         display: block;
-        
+
         right: 0;
         top: 0;
         overflow: hidden;
@@ -353,6 +364,8 @@ footer {
         height: 65vh;
         justify-content: flex-start;
         margin-top: 60%;
+        margin-bottom: 10%;
+
     }
 
     .hero-text {
@@ -375,7 +388,7 @@ footer {
     }
 
     .avatar {
-        width: 80%;
+        width: 90%;
 
     }
 
@@ -396,6 +409,11 @@ footer {
 
     }
 
+    #about-img {
+        padding-left: 10%;
+        width: 90%;
+    }
+
     .about-img {
         width: 100%;
     }
@@ -405,7 +423,12 @@ footer {
         text-align: left;
         width: 100%;
     }
-
+    .about-desc article h2 {
+        font-size: 2rem;
+        color: #fff;
+        text-align: center;
+    }
+   
     #skills ul {
         display: flex;
         flex-direction: column;
@@ -413,7 +436,7 @@ footer {
     }
 
     #skills h2 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     #skills ul li {
@@ -430,20 +453,25 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
+#services h3{
+    font-size: 2rem;
+}
     .tile {
         width: 80%;
         margin: 1rem;
     }
 
     .project-title {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     #projects {
         margin-top: 20%;
     }
+    .project-tile #desc{
+        font-size: 1em;
 
+    }
     #contact {
         height: 15vh;
     }
@@ -454,13 +482,16 @@ footer {
 
     .contact-details {
         margin: 1rem;
+        font-size: 1.2em;
     }
 
     .contact-links {
         font-size: 10px;
     }
 
-    .footer {
-        font-size: 2vh;
+    footer {
+        font-size: 0.7em;
+        text-align: center;
+        height: 0;
     }
 }
