@@ -443,6 +443,7 @@ footer {
     }
 
     .about-img {
+        display: none;
         width: 100%;
     }
 
@@ -452,12 +453,14 @@ footer {
         width: 100%;
     }
     .about-desc article h2 {
-        display: none;
+        
         font-size: 2rem;
         color: #fff;
         text-align: center;
     }
-   
+   #skills{
+    margin: 10% 0;
+   }
     #skills ul {
         display: flex;
         flex-direction: column;
